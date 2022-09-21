@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clinica San Martin</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="./Styles/styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
-</head>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica San Martin</title>
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
 <body>
   <div class="container">
     <nav>
@@ -19,10 +16,10 @@
         <div class="logo">
           <ul>
             <li>
-              <img src="Imagenes/logo.jpg" alt="">
-              <h1>Clinica San Martin</h1>
-              <span>Dashboard</span>
-            </li>
+          <img src="Imagenes/logo.jpg" alt="">
+          <h4>Clinica San Martin</h4>
+          <span>Dashboard</span>
+           </li>
           </ul>
         </div>
         <ul>
@@ -30,6 +27,11 @@
             <a href="#">
               <i class="fa-solid fa-house"></i>
               <span class="nav-item">Inicio</span></a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-dochub"></i>
+              <span class="nav-item">Comentarios</span></a>
           </li>
           <li>
             <a href="#">
@@ -42,7 +44,7 @@
               <span class="nav-item">Salir</span></a>
           </li>
         </ul>
-      </div>
+      </div>  
     </nav>
 
     <section class="main">
@@ -52,82 +54,69 @@
           <i class="far fa-bell"></i>
         </div>
         <div class="buscador">
-          <input type="buscar" placeholder="Buscar Medicos">
+          <input type="buscar" placeholder="Buscar">
+           <button type="button" class="btn btn-light"><i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
         <div class="burgur_menu">
           <i class="fas fa-bars"></i>
         </div>
       </div>
       <div class="medico">
-        <div class="medico_nombre">
-          <h1>Comentarios del paciente</h1>
-          <span>Paciente: Carlos Andres Martinez -ID: 256489755</span>
+        <div class="medico_nombre"> 
+          <strong><h4>Comentarios</h4></strong>
+          
+          <span>Comentarios paciente: CARLOS MARIO LÓPEZ</span>
+        </div>
+        <div class="medico_fecha">
+          <span>Fecha</span>  
+          <p>20/09/2022</p>
+        </div>
+        <div class="medico_equipo">
+          <img src="Imagenes/img1.jpg" alt="Medico 1">
+          <img src="Imagenes/img2.jpg" alt="Medico 2">
+          <img src="Imagenes/img3.jpg" alt="Medico 3">
         </div>
       </div>
-      <div>
-        <p class="text-center" style="margin-top: 40px;">
-          <button type="button" class="btn btn-raised btn-info btn-sm" data-toggle="modal" data-target="#modal"><i
-              class="far fa-file"></i> &nbsp; NUEVO COMENTARIO</button>
-        </p>
-      </div>
 
-      <table class="table">
-        <thead class="thead-dark">
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Fecha y Hora</th>
-            <th scope="col">Comentarios</th>
-            <th scope="col">Editar</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>18/sep/2022 11:30</td>
-            <td>El paciente presentaba muchas cosas la verda, no se le pudo hacer nada Diam class at pulvinar facilisis
-              neque quisque ultricies nunc varius vulputate ad ut, velit ullamcorper sapien gravida mi aliquet placerat
-              pellentesque vehicula duis pretium habitant, quis dictum feugiat faucibus venenatis parturient tortor per
-              eros arcu est</td>
-            <td>
-              <a href="#" class="btn btn-primary">
-                <i class="fas fa-sync-alt"></i>
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>19/Ago/2022 14:00</td>
-            <td>El paciente presentaba muchas cosas la verda, no se le pudo hacer nada Diam class at pulvinar facilisis
-              neque quisque ultricies nunc varius vulputate ad ut, velit ullamcorper sapien gravida mi aliquet placerat
-              pellentesque vehicula duis pretium habitant, quis dictum feugiat faucibus venenatis parturient tortor per
-              eros arcu est</td>
-            <td>
-              <a href="#" class="btn btn-primary">
-                <i class="fas fa-sync-alt"></i>
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>11/Ago/2022 16:20</td>
-            <td>El paciente presentaba muchas cosas la verda, no se le pudo hacer nada Diam class at pulvinar facilisis
-              neque quisque ultricies nunc varius vulputate ad ut, velit ullamcorper sapien gravida mi aliquet placerat
-              pellentesque vehicula duis pretium habitant, quis dictum feugiat faucibus venenatis parturient tortor per
-              eros arcu est</td>
-            <td>
-              <a href="#" class="btn btn-primary">
-                <i class="fas fa-sync-alt"></i>
-              </a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="main-body">
+        <div class="main-content">
+          <button type="button" class="btn btn-light mb-3"><i class="fa-solid fa-user-pen"></i> Nuevo comentario</button>          
+          <div class="container bg-white">
+          <table class="table table-striped">
+            <thead>
+              <tr class="table-primary"></tr>
+               <th scope="col">ID</th>
+                <th scope="col">Fecha y hora</th>
+                <th scope="col">Comentario</th>
+                <th scope="col">Editar</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>11/Mar/2022 08:30</td>
+                <td> El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo para aquellos interesados. Las secciones 1.10.32 y 1.10.33 de "de Finibus Bonorum et Malorum" por Cicero son también reproducidas en su forma original exacta, acompañadas por versiones en Inglés de la traducción realizada en 1914 por H. Rackham.</td>
+                <td> <a href=""><i class="fa-solid fa-pen-to-square" style="color: green;"></i></a> </td>                
+              </tr>
+              <tr>
+                <th scope="row">1</th>
+                <td>20/Abr/2022 10:30</td>
+                <td> El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo para aquellos interesados. Las secciones 1.10.32 y 1.10.33 de "de Finibus Bonorum et Malorum" por Cicero son también reproducidas en su forma original exacta, acompañadas por versiones en Inglés de la traducción realizada en 1914 por H. Rackham.</td>
+                <td> <a href=""><i class="fa-solid fa-pen-to-square" style="color: green;"></i></a> </td>                
+              </tr>
+              <tr>
+                <th scope="row">1</th>
+                <td>14/Sep/2022 09:00</td>
+                <td> El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo para aquellos interesados. Las secciones 1.10.32 y 1.10.33 de "de Finibus Bonorum et Malorum" por Cicero son también reproducidas en su forma original exacta, acompañadas por versiones en Inglés de la traducción realizada en 1914 por H. Rackham.</td>
+                <td> <a href=""><i class="fa-solid fa-pen-to-square" style="color: green;"></i></a> </td>                
+              </tr>
+            </tbody>
+          </table>  
+        </div>
+          </div>
+        </div>
+      </div>
     </section>
   </div>
 </body>
-<<<<<<< HEAD
-
 </html>
-=======
-</html>
->>>>>>> 8dcd78a8b982fd47b4d6732f5ced774d25886e35
