@@ -22,7 +22,7 @@ body {
 }
 
 nav {
-    position:sticky !important;
+    position: sticky !important;
     top: 0 !important;
     bottom: 0 !important;
     left: 0 !important;
@@ -35,6 +35,7 @@ nav {
     width: 100% !important;
     margin: 0 auto !important;
 }
+
 /* .navbar2 {
     width: 80%;
     margin: 0 auto;
@@ -71,7 +72,7 @@ li {
     padding-bottom: 20px;
 }
 
-li a{
+li a {
     font-size: 14px;
     color: rgb(85, 83, 83);
 }
@@ -98,7 +99,8 @@ nav i {
     width: 100%;
 }
 
-.top-menu, .medico {
+.top-menu,
+.medico {
     width: 100%;
     border-bottom: 1px solid rgb(192, 192, 192);
 }
@@ -222,16 +224,22 @@ nav i {
 .card .icon p {
     margin: 5px 10px;
 }
+
 .calificacion a {
-	text-decoration: none;
-	color: #888;
+    text-decoration: none;
+    color: #888;
     font-size: 25px;
     margin-top: 0;
 }
 
 .calificacion:hover a {
-	color: rgb(39, 130, 228);
+    color: rgb(39, 130, 228);
 }
-.calificacion > a:hover ~ a {
-	color: #888;
+
+.calificacion>a:hover~a {
+    color: #888;
+}
+
+td {
+    vertical-align: middle;
 }
