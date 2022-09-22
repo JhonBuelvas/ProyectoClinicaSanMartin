@@ -222,4 +222,16 @@ nav i {
 .card .icon p {
     margin: 5px 10px;
 }
+.calificacion a {
+	text-decoration: none;
+	color: #888;
+    font-size: 25px;
+    margin-top: 0;
+}
 
+.calificacion:hover a {
+	color: rgb(39, 130, 228);
+}
+.calificacion > a:hover ~ a {
+	color: #888;
+}
