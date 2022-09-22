@@ -223,11 +223,11 @@ nav i {
     right: 0;
     bottom: 0;
     left: 100%;
-    width: 30%;
+    width: 70%;
     height: 100vh;
 }
 .Navbar_inicio ul li {
-   margin-left: 30px;
+   margin-left: 20px;
    float: left;
 }
 
